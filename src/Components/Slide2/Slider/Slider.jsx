@@ -8,7 +8,7 @@ import SlidePage3 from '../SlidePage.jsx/SlidePage3';
 
 const Slider = () => {
     return (
-        <div className='max-w-3xl   border border-blue-400'>
+        <div className='w-96 lg:max-w-3xl   '>
             <h1 className='text-black font-bold text-5xl mx-20'>BEST SELLERS</h1>
            <Swiper
         spaceBetween={10}

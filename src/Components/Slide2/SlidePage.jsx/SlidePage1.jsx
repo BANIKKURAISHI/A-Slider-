@@ -6,7 +6,7 @@ const SlidePage1 = () => {
     return (
         <div className="my-10">
             <div className="flex flex-row  mb-3">
-                <div className="flex mx-20 " >
+                <div className="flex mx-2 md:mx-5 lg:mx-20 " >
                     <img className="w-40 h-40" src="https://i.ibb.co/L9k68nX/qcy-m10-tws-01-500x500-1.jpg" alt="" />
                 </div>
                 <div className="flex flex-col mt-10">
@@ -29,7 +29,7 @@ const SlidePage1 = () => {
             </div>
           {/* this is 2nd cart */}
           <div className="flex flex-row mt-3 ">
-                <div className="flex mx-20 mt-5 mb-3">
+                <div className="flex mx-2 md:mx-5 lg:mx-20 mt-5 mb-3">
                     <img className="w-40 h-40" src="https://i.ibb.co/1m5K5cm/41p-ZXkt-EVj-L-AC-UF894-1000-QL80.jpg" alt="" />
                 </div>
                 <div className="flex flex-col mt-10">
@@ -52,7 +52,7 @@ const SlidePage1 = () => {
             </div>
             {/* This is 3rd card */}
             <div className="flex flex-row  mt-5 mb-3">
-                <div className="flex mx-20">
+                <div className="flex mx-2 md:mx-5 lg:mx-20">
                     <img className="w-40 h-40" src="https://i.ibb.co/cxcccwQ/64c64ff046f7180f51234158-beats-solo3-wireless-on-ear-headphones.jpg" alt="" />
                 </div>
                 <div className="flex flex-col mt-10">
