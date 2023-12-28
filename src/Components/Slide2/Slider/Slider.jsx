@@ -3,6 +3,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import SlidePage1 from '../SlidePage.jsx/SlidePage1';
+import SlidePage2 from '../SlidePage.jsx/SlidePage2';
+import SlidePage3 from '../SlidePage.jsx/SlidePage3';
 
 const Slider = () => {
     return (
@@ -17,8 +19,8 @@ const Slider = () => {
         className="mySwiper"
       >
         <SwiperSlide><SlidePage1></SlidePage1></SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide><SlidePage2></SlidePage2></SwiperSlide>
+        <SwiperSlide><SlidePage3></SlidePage3></SwiperSlide>
  
       </Swiper>  
         </div>
