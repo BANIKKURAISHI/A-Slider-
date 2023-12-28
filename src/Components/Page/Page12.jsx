@@ -52,27 +52,27 @@ const Page12 = () => {
   };
 
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-row my-10">
+    <div className="flex flex-col  ">
+      <div className="flex flex-col md:flex-col lg:flex-row my-10">
         <div
-          className=" flex flex-row "
+          className=" flex flex-col md:flex-col lg:flex-row "
           onMouseEnter={buttonVisible}
           onMouseLeave={buttonHidden}
         >
           <div className="flex-1 hover:bg-slate-400 rounded-xl">
             <div className="w-96 h-80 flex flex-row mt-3">
-              <p className="w-10 ml-3 h-10 rounded-full bg-orange-400 mt-2 -p-2 text-3xl text-white text-center items-center">
-                -5
+              <p className=" w-10 ml-1  h-10 rounded-full bg-orange-400 mt-0 -p-2 text-3xl text-white text-center items-center lg:ml-3">
+                -6
               </p>
               <img
-                className="w-80 h-72 mt-6  hover:bg-slate-400"
+                className="w-80 h-72 mt-12  -mx-4 lg:mx-0 hover:bg-slate-400 "
                 src="https://i.ibb.co/41ySkWK/162053-laptop-top-view-hq-image-free.png"
                 alt=""
               />
             </div>
 
             {visible ? (
-              <div className="-my-44 mx-28 flex flex-row ">
+              <div className="mx-28 my-10  lg:-my-44 flex flex-row ">
                 <div
                   className={`${
                     hover1
@@ -120,19 +120,20 @@ const Page12 = () => {
               <IoStar className="text-slate-300" />
             </div>
             <div className="flex flex-col ">
-              <h1 className="font-bold text-2xl mb-3">HP Elite Desktop C2D </h1>
+              <h1 className="font-bold text-2xl mb-3">HP NoteBook</h1>
               <h1 className="flex flex-row text-justify text-orange-500 text-2xl font-semibold mb-3">
                 <PiCurrencyDollarBold className="my-1 mr-1" />
-                500{" "}
+                700{" "}
                 <span className="text-xl text-slate-600 ml-2 my-1">
-                  <del>550</del>
+                  <del>750</del>
                 </span>
               </h1>
               <p className="mt-3 mb-2">
                 {" "}
-                Design Sleek and professional design with durable materials.
-                Security: Features like HP Sure Start, HP Sure View (privacy
-                screen), and fingerprint sensors for enhanced security
+                HP NoteBook Summary HP NoteBook is a Windows 10 laptop with a
+                15.60-inch display that has a resolution of 1366x768 pixels. It
+                is powered by a Core i5 processor and it comes with 8GB of RAM.
+                The HP NoteBook packs 256GB of SSD storage.
               </p>
               {visible && (
                 <button className="w-3/4  my-7 bg-blue-500 p-2 shadow-xl rounded-xl justify-center hover:bg-orange-400">
@@ -145,11 +146,11 @@ const Page12 = () => {
         </div>
 
         <div
-          className=" flex flex-row "
+          className=" flex flex-col md:flex-col lg:flex-row "
           onMouseEnter={buttonVisible2}
           onMouseLeave={buttonHidden2}
         >
-          <div className="flex-1 hover:bg-slate-400 rounded-xl">
+          <div className="flex-1  hover:bg-slate-400 rounded-xl">
             <div className="w-96 h-80 flex flex-row ">
               <p className="w-10 ml-3 h-10 rounded-full bg-orange-400 mt-4 -p-2 text-3xl text-white text-center items-center">
                 -5
@@ -162,7 +163,7 @@ const Page12 = () => {
             </div>
 
             {visible2 ? (
-              <div className="-my-44 mx-28 flex flex-row ">
+              <div className="mx-28 my-10  lg:-my-44 flex flex-row ">
                 <div
                   className={`${
                     hover1
@@ -210,7 +211,7 @@ const Page12 = () => {
               <IoStar className="text-yellow-500" />
             </div>
             <div className="flex flex-col ">
-              <h1 className="font-bold text-2xl mb-3">HP Elite Desktop C2D </h1>
+              <h1 className="font-bold text-2xl mb-3">iPhone 14 Pro Max </h1>
               <h1 className="flex flex-row text-justify text-orange-500 text-2xl font-semibold mb-3">
                 <PiCurrencyDollarBold className="my-1 mr-1" />
                 1140{" "}
@@ -220,9 +221,10 @@ const Page12 = () => {
               </h1>
               <p className="mt-3 mb-2">
                 {" "}
-                Design Sleek and professional design with durable materials.
-                Security: Features like HP Sure Start, HP Sure View (privacy
-                screen), and fingerprint sensors for enhanced security
+                Apple iPhone 14 Pro Max. Specifications. Apple iPhone 14 Pro Max
+                MORE PICTURES. 6.7 1290x2796 pixels; 48MP 2160p; 6GB RAM Apple
+                A16 Bionic; 4323mAh Li-Ion. iPhone 14 Pro. Super Retina XDR
+                display; 6.1‑inch (diagonal) all‑screen O LED display.
               </p>
               {visible2 && (
                 <button className="w-3/4  my-7 bg-blue-500 p-2 shadow-xl rounded-xl justify-center hover:bg-orange-400">

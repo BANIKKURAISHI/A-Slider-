@@ -3,7 +3,7 @@ import { IoHeart, IoStar } from "react-icons/io5";
 import { PiCurrencyDollarBold } from "react-icons/pi";
 import { TfiReload } from "react-icons/tfi";
 import { CiSearch } from "react-icons/ci";
-import Page3 from "./Page3";
+
 
 const Page2 = () => {
   const [visible, setVisible] = useState(false);
@@ -53,10 +53,10 @@ const Page2 = () => {
     setHover3(false);
   };
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-row my-10">
+    
+      <div className="flex flex-col md:flex-col lg:flex-row my-10">
         <div
-          className=" flex flex-row "
+          className=" flex flex-col md:flex-col lg:flex-row "
           onMouseEnter={buttonVisible}
           onMouseLeave={buttonHidden}
         >
@@ -73,7 +73,7 @@ const Page2 = () => {
             </div>
 
             {visible ? (
-              <div className="-my-44 mx-28 flex flex-row ">
+              <div className="mx-28 my-10  lg:-my-44 flex flex-row  ">
                 <div
                   className={`${
                     hover1
@@ -147,7 +147,7 @@ const Page2 = () => {
         </div>
 
         <div
-          className=" flex flex-row "
+          className=" flex flex-col md:flex-col lg:flex-row "
           onMouseEnter={buttonVisible2}
           onMouseLeave={buttonHidden2}
         >
@@ -164,7 +164,7 @@ const Page2 = () => {
             </div>
 
             {visible2 ? (
-              <div className="-my-44 mx-28 flex flex-row ">
+              <div className="mx-28 my-10  lg:-my-44 flex flex-row ">
                 <div
                   className={`${
                     hover1
@@ -237,10 +237,8 @@ const Page2 = () => {
         </div>
       </div>
 
-      <div className="my-20">
-        <Page3></Page3>
-      </div>
-    </div>
+     
+ 
   );
 };
 

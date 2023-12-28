@@ -53,9 +53,9 @@ const Page3 = () => {
   };
   return (
     <div className="flex flex-col">
-      <div className="flex flex-row my-10">
+      <div className="flex flex-col md:flex-col lg:flex-row my-10">
         <div
-          className=" flex flex-row "
+          className=" flex flex-col md:flex-col lg:flex-row "
           onMouseEnter={buttonVisible}
           onMouseLeave={buttonHidden}
         >
@@ -72,7 +72,7 @@ const Page3 = () => {
             </div>
 
             {visible ? (
-              <div className="-my-44 mx-28 flex flex-row ">
+              <div className="mx-28 my-10  lg:-my-44 flex flex-row ">
                 <div
                   className={`${
                     hover1
@@ -147,7 +147,7 @@ const Page3 = () => {
         </div>
 
         <div
-          className=" flex flex-row "
+          className=" flex flex-col md:flex-col lg:flex-row"
           onMouseEnter={buttonVisible2}
           onMouseLeave={buttonHidden2}
         >
@@ -162,7 +162,7 @@ const Page3 = () => {
             </div>
 
             {visible2 ? (
-              <div className="-my-44 mx-28 flex flex-row ">
+              <div className="mx-28 my-10  lg:-my-44 flex flex-row ">
                 <div
                   className={`${
                     hover1
