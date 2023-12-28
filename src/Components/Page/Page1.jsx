@@ -55,7 +55,7 @@ const Page1 = () => {
 
   return (
     
-      <div className="flex flex-col md:flex-col  lg:flex-row mt-10">
+      <div className="flex flex-col md:flex-col  lg:flex-row mt-5">
         <div
           className=" flex flex-col md:md:flex-col  lg:flex-row"
           onMouseEnter={buttonVisible}
